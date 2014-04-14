@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.jobby.chooseyourmemory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <!-- For ads: -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:description="@string/app_description"
+        android:theme="@style/AppTheme" android:logo="@drawable/backimage">
+        <activity
+            android:name="fr.jobby.chooseyourmemory.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="BoardActivity" android:label="@string/board_name" android:screenOrientation="landscape"></activity>
+        <activity android:name="ImageListActivity" android:screenOrientation="landscape"></activity>
+        <activity android:name="ImageUpdateActivity" android:screenOrientation="landscape"></activity>
+        <activity android:name="OptionActivity" android:screenOrientation="landscape"></activity>
+        <activity android:name="WinActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="MenuActivity" android:screenOrientation="landscape" android:label="@string/app_name"></activity>
+        
+        <!-- For ads: -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

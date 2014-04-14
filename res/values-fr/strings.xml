@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Choose Your Memory!</string>
+    <string name="app_description">Choose Your Memory! est un jeu de Memory qui vous permet de choisir les images que vous voulez voir sur les cartes. Un ensemble de cartes par défaut vous est proposé, mais vous pouvez remplacer celles que vous voulez par une image personnalisée, prise avec l\'appareil photo de votre appareil ou dans sa galerie d\'images. Vous pouvez ainsi jouer au Memory avec les photos des membres de votre famille, avec vos photos de voyage, etc. Quatre niveaux de difficulté sont proposés, pour toute la famille.</string>
+    <string name="action_settings">Options</string>
+    <string name="options">Options</string>
+    <string name="select_pictures">Images</string>
+    <string name="board_name">Memory</string>
+    <string name="win">Gagné !</string>
+    <string name="win_left">Gagné en</string>
+    <string name="win_right">coups !</string>
+    <string name="back">Retour</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="confirm">Confirmation</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="alert_unsaved_changes">Le changement n\'est pas sauvegardé, voulez-vous vraiment quitter ?</string>
+    <string name="crop_information_have_been_lost">Les informations sur l\'image ont été perdues, essayez encore une fois</string>
+    
+    <string name="easy">Facile</string>
+    <string name="medium">Moyen</string>
+    <string name="difficult">Difficile</string>
+    <string name="expert">Expert</string>
+    
+    <string name="click_to_change_picture">Click to change picture</string>
+    <string name="select_image_from_default">Image par défaut</string>
+    <string name="select_image_from_camera">Appareil photo</string>
+    <string name="select_image_from_gallery">Galerie d\'images</string>
+    <string name="select_image">Sélectionner</string>
+    <string name="select_image_from_gallery_which_app">Terminer l\'action avec</string>
+    
+    <string name="choose_crop_app">Choisir l\'application pour éditer l\'image</string>
+    <string name="cannot_find_image_crop_app">Ne trouve pas d\'application pour éditer l\'image</string>
+
+    <string name="soundEnabled_summaryOff">Le son est désactivé</string>
+    <string name="soundEnabled_summaryOn">Le son est activé</string>
+    <string name="soundEnabled_title">Activer le son</string>
+    
+    <string name="resetAndPlayAgainWhenClicked_summaryOff">Quand deux cartes sont visibles, appuyer sur une carte va seulement cacher les cartes visibles. Vous devrez appuyer une seconde fois pour jouer.</string>
+    <string name="resetAndPlayAgainWhenClicked_summaryOn">Quand deux cartes sont visibles, appuyer sur une carte va cacher les cartes visibles et jouer la carte sélectionnée.</string>
+    <string name="resetAndPlayAgainWhenClicked_title">Jeu rapide</string>
+    
+    <string name="waitToHideCardsPref_title">Secondes à attendre avant de cacher les cartes</string>
+    <string name="waitToHideCardsPref_dialogTitle">Secondes à attendre avant de cacher les cartes</string>
+    <string-array name="waitToHideCardsPref_entries">
+        <item>Cacher les cartes seulement quand le joueur touche l\'écran</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="waitToHideCardsPref_entryValues">
+        <item>-1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string name="waitToHideCardsPref_defaultValue">3</string>
+</resources>

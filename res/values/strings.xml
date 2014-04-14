@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Choose Your Memory!</string>
+    <string name="app_description">Choose Your Memory! is a Memory (or Concentration) game where you can choose your own card images. A set of default images are provided, but you can replace each of them by a custom image, taken from your device camera or from your image gallery. You can then play Memory with pictures of all your family, or pictures from your travels, etc. Four levels, from Easy to Expert, makes the game fun for all family!</string>
+    <string name="action_settings">Settings</string>
+    <string name="options">Options</string>
+    <string name="select_pictures">Select pictures</string>
+    <string name="board_name">Concentration Board</string>
+    <string name="win">You win!</string>
+    <string name="win_left">You won in</string>
+    <string name="win_right">strokes!</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alert_unsaved_changes">You have unsaved changes, do you really want to proceed and cancel your changes?</string>
+    <string name="crop_information_have_been_lost">Image information have been lost, please try again</string>
+    
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="difficult">Difficult</string>
+    <string name="expert">Expert</string>
+    
+    <string name="click_to_change_picture">Click to change picture</string>
+    <string name="select_image_from_default">Select default picture</string>
+    <string name="select_image_from_camera">Take from camera</string>
+    <string name="select_image_from_gallery">Select from gallery</string>
+    <string name="select_image">Select Picture</string>
+    <string name="select_image_from_gallery_which_app">Complete action using</string>
+    
+    <string name="choose_crop_app">Choose Crop App</string>
+    <string name="cannot_find_image_crop_app">Cannot find image crop app</string>
+
+    <string name="soundEnabled_summaryOff">Sound is disabled</string>
+    <string name="soundEnabled_summaryOn">Sound is enabled</string>
+    <string name="soundEnabled_title">Enable sound</string>
+    
+    <string name="resetAndPlayAgainWhenClicked_summaryOff">When two cards are visible, pressing any card will only hide the cards. You\'ll need to press a second time to play again.</string>
+    <string name="resetAndPlayAgainWhenClicked_summaryOn">When two cards are visible, pressing any card will hide the visible cards and play the pressed card.</string>
+    <string name="resetAndPlayAgainWhenClicked_title">Quick play</string>
+    
+    <string name="waitToHideCardsPref_title">Seconds to wait before hiding cards</string>
+    <string name="waitToHideCardsPref_dialogTitle">Seconds to wait before hiding cards</string>
+    <string-array name="waitToHideCardsPref_entries">
+        <item>Hide cards only when player touches the screen</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="waitToHideCardsPref_entryValues">
+        <item>-1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string name="waitToHideCardsPref_defaultValue">3</string>
+</resources>
